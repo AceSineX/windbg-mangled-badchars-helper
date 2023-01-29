@@ -17,3 +17,5 @@ Example:
 
 # Usage:
 >python3 parse_bc.py 71
+
+>python3 parse_bc.py 71 /path/to/file
