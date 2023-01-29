@@ -7,6 +7,9 @@ from struct import *
 path = "/path/to/file"
 begin_badchar = sys.argv[1]
 
+if(len(sys.argv) == 3):
+    path = sys.argv[2]
+
 blob = open(path, 'r')
 
 line = blob.readline()
